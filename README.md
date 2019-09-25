@@ -1,12 +1,10 @@
 # Open Distro For Elasticsearch
 
-Open Distro for Elasticsearch is modify openid verification to revoked token.
-
-[Security]( https://github.com/opendistro-for-elasticsearch/security)
+Open Distro for Elasticsearch is modify token verification of openid-connect to deny connection from revoked token.
 
 
 ## Compile
-[Security-parent]( https://github.com/opendistro-for-elasticsearch/security-parent)
+[Base on security-parent]( https://github.com/opendistro-for-elasticsearch/security-parent)
 ```
 cd security-parent
 mvn clean install
